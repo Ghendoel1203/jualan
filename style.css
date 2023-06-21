@@ -1,0 +1,125 @@
+body{
+    background-color: #87CEFA;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    align-items: left;
+    padding: 0.3rem 7%;
+    background-color: #FF8C00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0.2rem;
+    color: white;
+
+}
+
+
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .content img{
+    margin-left: 42rem;
+    width: 9rem;
+}
+
+.hero .content h4{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #FFFAFA;
+    padding-left: 7rem;
+}
+
+.hero .content p{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #fff;
+    padding-left: 7rem;
+    font-weight: bold;
+}
+
+.hero .content h3{
+    font-family: sans-serif;
+    color:#fff;
+    padding-left: 7rem;
+    font-size: 38px;
+}
+
+.hero .content a{
+    background: crimson;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 2rem;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border-style: none;
+}
+
+.hero .content a:hover{
+    background: white;
+    color: black;
+}
+
+.menu{
+    font-weight: bold;
+    font-family: sans-serif;
+    float: right;
+    height: 60px;
+    max-width: 600px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+}
+
+.menu ul li a{
+    color : white;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu ul li a:hover{
+    color : blue;
+}
+
+
+
+
+
+
+
+
+
+
